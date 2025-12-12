@@ -6,7 +6,6 @@ const pinoLogger = require('./logger');
 
 const connectToDatabase = require('./models/db');
 const { loadData } = require("./util/import-mongo/index");
-const giftRoutes = require('./routes/giftRoutes');
 
 const app = express();
 app.use("*", cors());

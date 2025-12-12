@@ -17,7 +17,7 @@ async function connectToDatabase() {
 
     await client.connect()
 
-    const dbInstance = client.db(dbName)b.
+    const dbInstance = client.db(dbName)
 
     return dbInstance
 }

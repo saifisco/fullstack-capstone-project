@@ -1,3 +1,4 @@
+const router = require('express').Router()
 const connectToDatabase = require("../models/db");
 
 router.get('/', async (req, res) => {
